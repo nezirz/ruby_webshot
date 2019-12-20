@@ -11,7 +11,11 @@ class RubyWebshot
         options = args
 
         file_name = options[:file_name] || "#{Time.now.strftime("%d-%m-%Y-%H%M%S")}.png"
-        save_file_path = options[:save_file_path] || "#{Dir.pwd}/#{file_name}"
+        p file_name
+        save_file_path = options[:save_file_path] ? "#{options[:save_file_path]}/#{file_name}" : "#{Dir.pwd}/#{file_name}"
+
+        p save_file_path
+
         width = options[:width] || 860
         height = options[:height] || 860
 
