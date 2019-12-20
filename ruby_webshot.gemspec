@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name = "ruby_webshot"
-    s.version = "0.0.2"
+    s.version = "0.0.3"
     s.date = "2019-12-20"
     s.summary = "Ruby Webshot"
     s.description = "Ruby Webshot gem will make nice webshots for you. I needed the webshot/screenshot functionality for one of my website and after trying few ruby gems currently available I found that they are not updated lately and that they are using depricated version of `PhantomJs`:
