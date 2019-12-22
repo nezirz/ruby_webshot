@@ -66,3 +66,7 @@ or
 ```bash
  RubyWebshot.call("https://www.linkedin.com/in/nezir/",{:save_file_path=> "/home/someuser/somedir", :file_name =>"home.png", :width => 500,:height => 500})
  ```
+Here is a short vieo tutorial how to use gem inside ruby console:
+[![Watch the video](https://img.youtube.com/vi/oxg6UOXsou4/maxresdefault.jpg)](https://www.youtube.com/watch?v=oxg6UOXsou4)
+
+ 
