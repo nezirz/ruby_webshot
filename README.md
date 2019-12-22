@@ -1,7 +1,8 @@
 # Ruby Webshot 
 `ruby_webshot`
 
-Simple ruby gem for making nice webshots with headless browser.
+Simple ruby gem for making nice webshots with headless browser - 
+[RubyWebshot Gem on RubyGems.org](https://rubygems.org/gems/ruby_webshot)
 
 ## DESCRIPTION:
 
@@ -66,7 +67,8 @@ or
 ```bash
  RubyWebshot.call("https://www.linkedin.com/in/nezir/",{:save_file_path=> "/home/someuser/somedir", :file_name =>"home.png", :width => 500,:height => 500})
  ```
-Here is a short vieo tutorial how to use gem inside ruby console:
+Here is a short [Video Tutorial How To use RUby Webshot Gem](https://www.youtube.com/watch?v=oxg6UOXsou4) inside Ruby Console:
+
 [![Watch the video](https://img.youtube.com/vi/oxg6UOXsou4/maxresdefault.jpg)](https://www.youtube.com/watch?v=oxg6UOXsou4)
 
  
